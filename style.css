@@ -17,19 +17,39 @@ color: hsl(206, 17%, 28%);
 
 .start{
 font-size: 48px;
-margin: none;
+
 }
 
+.grey-text-text-lighten-3{
+font-size: 30px;
+padding: 0;
+margin: 0;
+top: 100px;
+height: 0px;
+margin-top: 50px;
+width: 100px;
+}
+ul{
+  margin-top: 0;
+}
+
+.port{
+
+font-size: 48px;
+
+text-align: center;
+margin-left: 0;
+margin-right: 0;
+
+}
 
 .Insta_icon img{
-
 color: hsl(0, 0%, 100%);
-position: relative;
+position: absolute;
 left: 300px;
-top: 300px;
-display: flex;
-max-width: max-content;
-max-height: max-content;
+top: 700px;
+
+max-width: 300px;
 }
 
 .git_icon img{
@@ -38,7 +58,7 @@ color: hsl(0, 0%, 100%);
 position: absolute;
 left: 700px;
 top: 300px;
-display: flex;
+
 max-width: 100%;
 }
 
@@ -50,7 +70,7 @@ color: hsl(0, 0%, 100%);
 position: absolute;
 left: 1100px;
 top: 300px;
-display: flex;
+
 max-width: 100%;
 }
 
@@ -59,8 +79,8 @@ height: 300px;
 color: hsl(0, 0%, 100%);
 position: absolute;
 left: 300px;
-top: 700px;
-display: flex;
+top: 300px;
+
 max-width: 100%;
 }
 
@@ -89,45 +109,31 @@ background-color: lightblue;
 background-color: black;
 height: 25px;
 width: 100%;
-top: 150px;
+top: 225px;
 position: absolute;
 }
 
 .line2{
-background-color: black;
-height: 100%;
-width: 25px;
-left: 200px;
-
-}
-
-.line3{
-background-color: black;
 height: 25px;
-bottom: 1600px;
-}
+width: 100%;
+position: absolute;
 
-.line4{
-  background-color: black;
-height: 25px;
-bottom: 1100px;
-position: relative;
 }
 
 .socials{
-  font-size: 36px;
-  position: absolute;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  top: 300px;
+font-size: 36px;
+position: absolute;
+writing-mode: vertical-rl;
+text-orientation: upright;
+top: 300px;
 }
 
 .aboutme{
-  font-size: 36px;
-  position: absolute;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  top: 1200px;
+font-size: 36px;
+position: absolute;
+writing-mode: vertical-rl;
+text-orientation: upright;
+top: 1200px;
 }
 
 .gitbtn{
@@ -143,25 +149,25 @@ position: absolute;
 
 .instabtn{
 background-color: transparent;
-height: 300px;
-width: 300px;
 color: hsl(0, 0%, 100%);
-left: 300px;
-top: 300px;
-display: flex;
 position: absolute;
-}
-
-.facebtn{
-background-color: transparent;
-height: 300px;
-width: 300px;
-color: hsl(0, 0%, 100%);
 left: 300px;
 top: 700px;
 display: flex;
-position: absolute;
+width: 300px;
+height: 300px;
 }
+.facebtn{
+background-color: transparent;
+height: 300px;
+color: hsl(0, 0%, 100%);
+position: absolute;
+left: 300px;
+top: 300px;
+display: flex;
+width: 300px;
+}
+
 
 .gmailbtn{
 background-color: transparent;
@@ -175,14 +181,14 @@ position: absolute;
 }
 
 .flex-container{
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  margin: 5px;
-  justify-content: space-evenly;
-  max-width: 100%;
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+margin: 5px;
+justify-content: space-evenly;
+max-width: 100%;
 }
 
 .flex-container div {
-  flex: 0 0 33.333%;
+flex: 0 0 33.333%;
 }
