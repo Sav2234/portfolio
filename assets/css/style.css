@@ -1,66 +1,188 @@
+html,
+body{
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
 body {
-  margin: 0;
+font-family: sans-serif;
+background-color: #f9fbfd;
 }
 
-header { 
-  background: blue;
-  color: white;
-  padding: 15px 15px 0 15px;
+header {
+text-align: center;
+color: hsl(206, 17%, 28%);
 }
 
-header h1 {
-  margin: 0;
-  display: inline;
+.start{
+font-size: 48px;
+margin: none;
 }
 
-nav ul{
-  margin: 0;
-  padding: 0 0 0 15px;
-  display: inline-block;
+
+.Insta_icon img{
+
+color: hsl(0, 0%, 100%);
+position: relative;
+left: 300px;
+top: 300px;
+display: flex;
+max-width: max-content;
+max-height: max-content;
 }
 
-nav ul li{
-  background: black;
-  color: white;
-  display: inline-block;
-  list-style-type: none;
-  padding: 5px 15px;
+.git_icon img{
+height: 300px;
+color: hsl(0, 0%, 100%);
+position: absolute;
+left: 700px;
+top: 300px;
+display: flex;
+max-width: 100%;
 }
 
-.nav-wrapper{
+
+.gmail_icon img{
+height: 300px;
+width: 400px;
+color: hsl(0, 0%, 100%);
+position: absolute;
+left: 1100px;
+top: 300px;
+display: flex;
+max-width: 100%;
+}
+
+.face_icon img{
+height: 300px;
+color: hsl(0, 0%, 100%);
+position: absolute;
+left: 300px;
+top: 700px;
+display: flex;
+max-width: 100%;
+}
+
+.insta{
+opacity: 50%;
+height: 200px;
+position: absolute;
+background-color: lightblue;
+}
+
+.facebook{
+opacity: 50%;
+height: 200px;
+position: absolute;
+background-color: lightblue;
+}
+
+.github{
+opacity: 50%;
+height: 200px;
+position: absolute;
+background-color: lightblue;
+}
+
+.line1{
+background-color: black;
+height: 25px;
+width: 100%;
+top: 150px;
+position: absolute;
+}
+
+.line2{
+background-color: black;
+height: 100%;
+width: 25px;
+left: 200px;
+
+}
+
+.line3{
+background-color: black;
+height: 25px;
+bottom: 1600px;
+}
+
+.line4{
+  background-color: black;
+height: 25px;
+bottom: 1100px;
+position: relative;
+}
+
+.socials{
+  font-size: 36px;
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  top: 300px;
+}
+
+.aboutme{
+  font-size: 36px;
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  top: 1200px;
+}
+
+.gitbtn{
+background-color: transparent;
+height: 300px;
+width: 300px;
+color: hsl(0, 0%, 100%);
+left: 700px;
+top: 300px;
+display: flex;
+position: absolute;
+}
+
+.instabtn{
+background-color: transparent;
+height: 300px;
+width: 300px;
+color: hsl(0, 0%, 100%);
+left: 300px;
+top: 300px;
+display: flex;
+position: absolute;
+}
+
+.facebtn{
+background-color: transparent;
+height: 300px;
+width: 300px;
+color: hsl(0, 0%, 100%);
+left: 300px;
+top: 700px;
+display: flex;
+position: absolute;
+}
+
+.gmailbtn{
+background-color: transparent;
+height: 300px;
+width: 400px;
+color: hsl(0, 0%, 100%);
+left: 1100px;
+top: 300px;
+display: flex;
+position: absolute;
+}
+
+.flex-container{
   display: flex;
-  justify-content: space-between;
-  padding: 38px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: space-evenly;
+  max-width: 100%;
 }
 
-.left-side{
-  display: flex;
-}
-
-.nav-wrapper > .left-side > div {
-  margin-right: 20px;
-  font-size: 0.9em;
-  text-transform: uppercase;
-}
-
-nav ul li a{
-  color: white;
-}
-
-.row{
-  clear: both;
-}
-
-.col{
-  background: #333;
-  border-radius: 5px;
-  color: black;
-  padding: .5%;
-  float: left;
-  margin: 1%;
-  width: 33%;
-}
-
-footer{
-  clear: both;
+.flex-container div {
+  flex: 0 0 33.333%;
 }
