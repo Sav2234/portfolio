@@ -1,23 +1,13 @@
 html,
 body{
-height: 100%;
-margin: 0;
-padding: 0;
-}
-
-body {
+background-color: rgb(196, 196, 196);
 font-family: sans-serif;
-background-color: #f9fbfd;
+
 }
 
 header {
 text-align: center;
 color: hsl(206, 17%, 28%);
-}
-
-.start{
-font-size: 48px;
-
 }
 
 .grey-text-text-lighten-3{
@@ -29,18 +19,16 @@ height: 0px;
 margin-top: 50px;
 width: 100px;
 }
+
 ul{
   margin-top: 0;
 }
 
 .port{
-
 font-size: 48px;
-
 text-align: center;
 margin-left: 0;
 margin-right: 0;
-
 }
 
 .Insta_icon img{
@@ -48,7 +36,6 @@ color: hsl(0, 0%, 100%);
 position: absolute;
 left: 300px;
 top: 700px;
-
 max-width: 300px;
 }
 
@@ -58,7 +45,6 @@ color: hsl(0, 0%, 100%);
 position: absolute;
 left: 700px;
 top: 300px;
-
 max-width: 100%;
 }
 
@@ -70,7 +56,6 @@ color: hsl(0, 0%, 100%);
 position: absolute;
 left: 1100px;
 top: 300px;
-
 max-width: 100%;
 }
 
@@ -80,30 +65,10 @@ color: hsl(0, 0%, 100%);
 position: absolute;
 left: 300px;
 top: 300px;
-
 max-width: 100%;
 }
 
-.insta{
-opacity: 50%;
-height: 200px;
-position: absolute;
-background-color: lightblue;
-}
 
-.facebook{
-opacity: 50%;
-height: 200px;
-position: absolute;
-background-color: lightblue;
-}
-
-.github{
-opacity: 50%;
-height: 200px;
-position: absolute;
-background-color: lightblue;
-}
 
 .line1{
 background-color: black;
@@ -113,12 +78,6 @@ top: 225px;
 position: absolute;
 }
 
-.line2{
-height: 25px;
-width: 100%;
-position: absolute;
-
-}
 
 .socials{
 font-size: 36px;
@@ -180,15 +139,12 @@ display: flex;
 position: absolute;
 }
 
-.flex-container{
-display: flex;
-width: 100%;
-flex-wrap: wrap;
-margin: 5px;
-justify-content: space-evenly;
-max-width: 100%;
+
+.li{
+  background-color: gray;
 }
 
-.flex-container div {
-flex: 0 0 33.333%;
+.space{
+  height: 50px;
+  margin: 100px;
 }
